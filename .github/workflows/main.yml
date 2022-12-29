@@ -38,5 +38,5 @@ jobs:
         run: env
         
       - name: Step 7 - Performing Task from shell script
-        run: sh ./.github/github-actions-script.sh
+        run: sh ./.github/script.sh
         shell: bash
