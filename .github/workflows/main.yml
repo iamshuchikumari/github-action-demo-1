@@ -37,5 +37,5 @@ jobs:
       - name: Step 5 - List Ubuntu Environment Variables
         run: env
         
-      - name: Step 5 - Performing Task from shell script
-        run: sh ../script.sh
+      - name: Step 6 - Performing Task from shell script
+        run: chmod +x sh ./script.sh
