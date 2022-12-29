@@ -41,4 +41,4 @@ jobs:
        # run: chmod +x ./../script.sh
         
       - name: Step 7 - Performing Task from shell script
-        run:  script.sh
+        run:  ./script.sh
