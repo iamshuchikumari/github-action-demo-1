@@ -37,12 +37,6 @@ jobs:
       - name: Step 5 - List Ubuntu Environment Variables
         run: env
         
-      - name: Step 6 - Printing Directory
-        run: ls -la
-        
-      - name: Step 7 - Adding execution policy to shell script
-        run: ls
-        
-      - name: Step 8 - Performing Task from shell script
+      - name: Step 7 - Performing Task from shell script
         run: sh ./.github/github-actions-script.sh
         shell: bash
