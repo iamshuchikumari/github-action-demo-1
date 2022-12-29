@@ -21,7 +21,7 @@ jobs:
     steps:
 
       - name: Step 1 - Log the pre-build disc space
-        run: ls
+        run: ls -a
         
       - name: step 2 - Checkout the main GitHub branch
         uses: actions/checkout@v2 
