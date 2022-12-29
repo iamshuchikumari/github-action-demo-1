@@ -41,7 +41,7 @@ jobs:
         run: ls -la
         
       - name: Step 7 - Adding execution policy to shell script
-        run: chmod +x ./script.sh
+        run: ls
         
       - name: Step 8 - Performing Task from shell script
-        run:  .public/script.sh
+        run:  sh ./script.sh
