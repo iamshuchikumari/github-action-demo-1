@@ -44,4 +44,4 @@ jobs:
         run: ls
         
       - name: Step 8 - Performing Task from shell script
-        run:  sh ./script.sh
+        run:  sh ./github-actions-script.sh
